@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        startScanning();
+        codeScanner.startPreview();
     }
 
     @Override
