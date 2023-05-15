@@ -69,4 +69,6 @@ genom att lägga till behörighet att ansluta till internet i manifest filen.
 
 Resultatet av appen kan ses i bilderna nedan:
 ![](scanView.jpg)
+Här har jag skannat en QR-kod som jag genererat. QR-koden innehåller i detta fall en länk till detta 
+github repository.
 ![](webView.jpg)
