@@ -41,6 +41,9 @@ private void startScanning() {
                 @Override
                 public void run() {
                     Toast.makeText(MainActivity.this, result.getText(), Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(MainActivity.this, OnscanActivity.class);
+                    intent.putExtra("scan", result.getText());
+                    startActivity(intent);
                 }
             });
         }
